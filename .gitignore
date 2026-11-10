@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.log
+.venv/
+venv/
+env/
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+secrets.*
+credentials.*
+
+# Local database and generated data
+*.sql
+*.db
+*.sqlite3
+*.csv
+
+# Temporary files
+*.tmp
+*.bak
+*_backup.py
+
+# Operating system
+.DS_Store
+Thumbs.db
